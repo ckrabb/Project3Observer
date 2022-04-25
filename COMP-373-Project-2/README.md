@@ -1,18 +1,6 @@
-# COMP373-Project-2
-Project 2: Object Wiring Using Spring – A Facility Management System
+# COMP373-Project-3
+Project 3: Implementing Patterns
 Project Description:
-In this project, we will change the object dependency and collaboration management from directly
-instantiating to Dependency Injection container (Spring).
-- Domain Modeling and implementation
-- Implementing Dependency Injection using Spring
-  You need to design and implement:
-  – Spring container configuration for Dependency Injection for the application that you
-  developed in Project 1.
-  – Using ApplicationContext Mechanism
-  – Dependency relationship using XML
-
-Main files: src/com/online/bookstore/model/facility/
-
-App context: src/META-INF/app-context-facility.xml
+In this project, I implemented an observer pattern to update facilities about new or updated annual inspections. The subject, FacilityAnnualInspection, updates Facilitys that are registered as observers. FacilityInformation was updated to read in the updated information from FacilityAnnualInspection. Any updates in the date or inspectionID will update all registered facilities. In the FacilityMain.java file, tests for updating the annual inspection were included. Run FacilityMain.java to see results. 
 
 Open: src/com/online/bookstore/model/view and run FacilityMain.java
