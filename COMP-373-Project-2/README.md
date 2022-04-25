@@ -1,4 +1,6 @@
 # COMP373-Project-3
+By Kyle Lieu and Chris Krabbenschmidt
+
 Project 3: Implementing Patterns
 
 Project Description:
